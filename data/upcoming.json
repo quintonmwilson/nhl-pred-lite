@@ -1,21 +1,5 @@
 [
  {
-  "game_id": 2026020265,
-  "date": "2026-11-07",
-  "start_utc": "2026-11-07T17:30:00Z",
-  "game_type": 2,
-  "home": "WSH",
-  "away": "FLA"
- },
- {
-  "game_id": 2026020266,
-  "date": "2026-11-07",
-  "start_utc": "2026-11-07T18:00:00Z",
-  "game_type": 2,
-  "home": "NSH",
-  "away": "STL"
- },
- {
   "game_id": 2026020267,
   "date": "2026-11-07",
   "start_utc": "2026-11-07T22:00:00Z",
