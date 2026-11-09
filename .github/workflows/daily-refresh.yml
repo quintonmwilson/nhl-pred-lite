@@ -27,9 +27,9 @@
 name: Daily refresh
 
 on:
-  schedule:
-    - cron: "7 14 * * *"     # 10:07 AM EDT / 9:07 AM EST  (morning)
-    - cron: "7 22 * * *"     # 6:07 PM EDT / 5:07 PM EST   (evening)
+ # schedule:
+ #   - cron: "7 14 * * *"     # 10:07 AM EDT / 9:07 AM EST  (morning)
+ #   - cron: "7 22 * * *"     # 6:07 PM EDT / 5:07 PM EST   (evening)
   workflow_dispatch:         # run it by hand: Actions -> Daily refresh -> Run workflow
     inputs:
       mode:
