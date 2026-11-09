@@ -27,11 +27,9 @@
 name: Daily refresh
 
 on:
- # schedule:
-   # - cron: "7 11 * * *"     # morning backup: 6:07 AM EST, typically lands ~9-11 AM with GitHub's delay
-   # - cron: "7 14 * * *"     # morning backup: 9:07 AM EST
-    # - cron: "37 19 * * *"    # evening backup: 2:37 PM EST, typically lands ~5-7 PM
-   # - cron: "7 22 * * *"     # evening backup: 5:07 PM EST (catches late West Coast lines when delayed)
+  schedule:
+    - cron: "7 14 * * *"     # 10:07 AM EDT / 9:07 AM EST  (morning)
+    - cron: "7 22 * * *"     # 6:07 PM EDT / 5:07 PM EST   (evening)
   workflow_dispatch:         # run it by hand: Actions -> Daily refresh -> Run workflow
     inputs:
       mode:
