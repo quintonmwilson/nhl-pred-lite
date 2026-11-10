@@ -2,7 +2,9 @@
 streamlit_app.py - NHL game predictor
 
 Reads only model/model_artifact.json, model/prediction_log.csv and model/edge_log.csv (written by refresh.py).
-No raw data, no API calls.  Run locally:  streamlit run streamlit_app.py
+Streamlit Cloud doesn't reliably pull the data-only commits from the Daily refresh Action, so the deployed app
+copies those files straight from GitHub every couple of minutes (remote_model.py).
+Run locally against your own files:  NHL_MODEL_SOURCE=local streamlit run streamlit_app.py
 """
 
 from pathlib import Path
@@ -12,11 +14,12 @@ import pandas as pd
 import streamlit as st
 
 from nhl_model import EDGE_FLAG, FLAG_RULE, Predictor, load_artifact
+from remote_model import resolve_model_files
 
 ROOT = Path(__file__).parent
-ART_PATH = ROOT / "model" / "model_artifact.json"
-LOG_PATH = ROOT / "model" / "prediction_log.csv"
-EDGE_PATH = ROOT / "model" / "edge_log.csv"
+# Latest model files from GitHub (or model/ when NHL_MODEL_SOURCE=local). ART_MT changes only when the
+# model file's contents change, and every cache below is keyed on it.
+ART_PATH, LOG_PATH, EDGE_PATH, ART_MT = resolve_model_files(ROOT / "model")
 MODEL_CODE = ROOT / "nhl_model.py"
 USUAL = "Unknown - use team's usual mix"
 CUSTOM = "Custom matchup"
@@ -218,7 +221,6 @@ def price_markets(mk, odds):
 if not ART_PATH.exists():
     st.error("model/model_artifact.json not found. Run `python refresh.py` locally, then commit and push the model folder.")
     st.stop()
-ART_MT = ART_PATH.stat().st_mtime
 CODE_MT = MODEL_CODE.stat().st_mtime if MODEL_CODE.exists() else 0.0
 try:
     pred = get_predictor(ART_MT, CODE_MT)
