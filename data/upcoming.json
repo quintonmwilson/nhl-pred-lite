@@ -1,21 +1,5 @@
 [
  {
-  "game_id": 2026020331,
-  "date": "2026-11-16",
-  "start_utc": "2026-11-17T00:30:00Z",
-  "game_type": 2,
-  "home": "NYR",
-  "away": "MTL"
- },
- {
-  "game_id": 2026020332,
-  "date": "2026-11-16",
-  "start_utc": "2026-11-17T02:30:00Z",
-  "game_type": 2,
-  "home": "UTA",
-  "away": "VAN"
- },
- {
   "game_id": 2026020333,
   "date": "2026-11-17",
   "start_utc": "2026-11-18T00:00:00Z",
