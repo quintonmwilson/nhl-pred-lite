@@ -206,5 +206,13 @@
   "game_type": 2,
   "home": "SJS",
   "away": "MIN"
+ },
+ {
+  "game_id": 2026020385,
+  "date": "2026-11-24",
+  "start_utc": "2026-11-25T01:00:00Z",
+  "game_type": 2,
+  "home": "EDM",
+  "away": "VGK"
  }
 ]
