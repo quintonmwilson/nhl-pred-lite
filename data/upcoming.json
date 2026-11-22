@@ -1,117 +1,5 @@
 [
  {
-  "game_id": 2026020359,
-  "date": "2026-11-21",
-  "start_utc": "2026-11-21T18:00:00Z",
-  "game_type": 2,
-  "home": "CAR",
-  "away": "EDM"
- },
- {
-  "game_id": 2026020360,
-  "date": "2026-11-21",
-  "start_utc": "2026-11-21T20:30:00Z",
-  "game_type": 2,
-  "home": "CGY",
-  "away": "CHI"
- },
- {
-  "game_id": 2026020361,
-  "date": "2026-11-21",
-  "start_utc": "2026-11-21T23:00:00Z",
-  "game_type": 2,
-  "home": "FLA",
-  "away": "BUF"
- },
- {
-  "game_id": 2026020362,
-  "date": "2026-11-21",
-  "start_utc": "2026-11-21T23:00:00Z",
-  "game_type": 2,
-  "home": "NSH",
-  "away": "PIT"
- },
- {
-  "game_id": 2026020363,
-  "date": "2026-11-21",
-  "start_utc": "2026-11-22T00:00:00Z",
-  "game_type": 2,
-  "home": "BOS",
-  "away": "WSH"
- },
- {
-  "game_id": 2026020364,
-  "date": "2026-11-21",
-  "start_utc": "2026-11-22T00:00:00Z",
-  "game_type": 2,
-  "home": "TOR",
-  "away": "CBJ"
- },
- {
-  "game_id": 2026020365,
-  "date": "2026-11-21",
-  "start_utc": "2026-11-22T00:00:00Z",
-  "game_type": 2,
-  "home": "MTL",
-  "away": "PHI"
- },
- {
-  "game_id": 2026020366,
-  "date": "2026-11-21",
-  "start_utc": "2026-11-22T00:00:00Z",
-  "game_type": 2,
-  "home": "OTT",
-  "away": "LAK"
- },
- {
-  "game_id": 2026020367,
-  "date": "2026-11-21",
-  "start_utc": "2026-11-22T00:00:00Z",
-  "game_type": 2,
-  "home": "DET",
-  "away": "NYI"
- },
- {
-  "game_id": 2026020368,
-  "date": "2026-11-21",
-  "start_utc": "2026-11-22T00:00:00Z",
-  "game_type": 2,
-  "home": "STL",
-  "away": "NJD"
- },
- {
-  "game_id": 2026020369,
-  "date": "2026-11-21",
-  "start_utc": "2026-11-22T00:00:00Z",
-  "game_type": 2,
-  "home": "WPG",
-  "away": "VGK"
- },
- {
-  "game_id": 2026020370,
-  "date": "2026-11-21",
-  "start_utc": "2026-11-22T02:00:00Z",
-  "game_type": 2,
-  "home": "UTA",
-  "away": "ANA"
- },
- {
-  "game_id": 2026020371,
-  "date": "2026-11-21",
-  "start_utc": "2026-11-22T03:00:00Z",
-  "game_type": 2,
-  "home": "VAN",
-  "away": "MIN"
- },
- {
-  "game_id": 2026020372,
-  "date": "2026-11-21",
-  "start_utc": "2026-11-22T03:00:00Z",
-  "game_type": 2,
-  "home": "SJS",
-  "away": "SEA"
- },
- {
   "game_id": 2026020373,
   "date": "2026-11-22",
   "start_utc": "2026-11-22T17:30:00Z",
@@ -214,5 +102,117 @@
   "game_type": 2,
   "home": "EDM",
   "away": "VGK"
+ },
+ {
+  "game_id": 2026020386,
+  "date": "2026-11-25",
+  "start_utc": "2026-11-26T00:00:00Z",
+  "game_type": 2,
+  "home": "BOS",
+  "away": "WPG"
+ },
+ {
+  "game_id": 2026020387,
+  "date": "2026-11-25",
+  "start_utc": "2026-11-26T00:00:00Z",
+  "game_type": 2,
+  "home": "BUF",
+  "away": "NYR"
+ },
+ {
+  "game_id": 2026020388,
+  "date": "2026-11-25",
+  "start_utc": "2026-11-26T00:00:00Z",
+  "game_type": 2,
+  "home": "TBL",
+  "away": "CAR"
+ },
+ {
+  "game_id": 2026020389,
+  "date": "2026-11-25",
+  "start_utc": "2026-11-26T00:00:00Z",
+  "game_type": 2,
+  "home": "FLA",
+  "away": "OTT"
+ },
+ {
+  "game_id": 2026020390,
+  "date": "2026-11-25",
+  "start_utc": "2026-11-26T00:00:00Z",
+  "game_type": 2,
+  "home": "NYI",
+  "away": "STL"
+ },
+ {
+  "game_id": 2026020391,
+  "date": "2026-11-25",
+  "start_utc": "2026-11-26T00:00:00Z",
+  "game_type": 2,
+  "home": "PIT",
+  "away": "CGY"
+ },
+ {
+  "game_id": 2026020392,
+  "date": "2026-11-25",
+  "start_utc": "2026-11-26T00:00:00Z",
+  "game_type": 2,
+  "home": "WSH",
+  "away": "PHI"
+ },
+ {
+  "game_id": 2026020393,
+  "date": "2026-11-25",
+  "start_utc": "2026-11-26T00:00:00Z",
+  "game_type": 2,
+  "home": "CBJ",
+  "away": "NJD"
+ },
+ {
+  "game_id": 2026020394,
+  "date": "2026-11-25",
+  "start_utc": "2026-11-26T00:30:00Z",
+  "game_type": 2,
+  "home": "DET",
+  "away": "VAN"
+ },
+ {
+  "game_id": 2026020395,
+  "date": "2026-11-25",
+  "start_utc": "2026-11-26T01:00:00Z",
+  "game_type": 2,
+  "home": "DAL",
+  "away": "NSH"
+ },
+ {
+  "game_id": 2026020396,
+  "date": "2026-11-25",
+  "start_utc": "2026-11-26T01:00:00Z",
+  "game_type": 2,
+  "home": "MIN",
+  "away": "UTA"
+ },
+ {
+  "game_id": 2026020397,
+  "date": "2026-11-25",
+  "start_utc": "2026-11-26T02:30:00Z",
+  "game_type": 2,
+  "home": "COL",
+  "away": "MTL"
+ },
+ {
+  "game_id": 2026020399,
+  "date": "2026-11-25",
+  "start_utc": "2026-11-26T02:40:00Z",
+  "game_type": 2,
+  "home": "SEA",
+  "away": "CHI"
+ },
+ {
+  "game_id": 2026020398,
+  "date": "2026-11-25",
+  "start_utc": "2026-11-26T03:00:00Z",
+  "game_type": 2,
+  "home": "ANA",
+  "away": "SJS"
  }
 ]
